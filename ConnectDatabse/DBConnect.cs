@@ -49,15 +49,16 @@ namespace ConnectDatabse
             }
             catch (MySqlException e)
             {
-                switch (e.Number)
-                {
-                    case 0:
-                        MessageBox.Show("Cannot connect to server.");
-                        break;
-                    case 1045:
-                        MessageBox.Show("Login failed.");
-                        break;
-                }
+                //switch (e.Number)
+                //{
+                //    case 0:
+                //        MessageBox.Show("Cannot connect to server.");
+                //        break;
+                //    case 1045:
+                //        MessageBox.Show("Login failed.");
+                //        break;
+                //}
+                MessageBox.Show(e.Message);
                 return false;
             }
         }
