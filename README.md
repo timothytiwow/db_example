@@ -12,10 +12,10 @@ A MySQL Database Server need to be set up with a specific database and table to 
 - MySQLServer 8.0.21
 - MySQL Shell 8.0.21
 
-1. Create a new database named `hello`
-```CREATE DATABASE hello;```
-```USE hello;```
-2. Create a new table named `mytable` with a char(255) **name** field, and an integer **age** field
+1. Create a new database named `hello` <br/>
+```CREATE DATABASE hello;```<br/>
+```USE hello;```<br/>
+2. Create a new table named `mytable` with a char(255) **name** field, and an integer **age** field <br/>
 ```CREATE TABLE mytable (name char(255), age int);```
 
 Done.
